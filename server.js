@@ -51,7 +51,7 @@ client.on('ready',  () => {
   console.log("Rabea/YassiN");
 });
 
-const developers = ['22//الايدي
+const developers = ['هنا الايدي'] //الايدي هنا
 const adminprefix = "$";//برفكس
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
