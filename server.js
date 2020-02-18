@@ -51,8 +51,8 @@ client.on('ready',  () => {
   console.log("Rabea/YassiN");
 });
 
-const developers = [''];//اايديهك
-const adminprefix = "";//برفكسك
+const developers = ['335645388323160064'];//اايديهك
+const adminprefix = "*";//برفكسك
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
@@ -86,4 +86,4 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
-client.login("")//بين التخصيص التوكن
+client.login("MzM1NjQ1Mzg4MzIzMTYwMDY0.XkD3BQ.LxYnUMYRN4SNRZjdXLuArYAkSyQ")//بين التخصيص التوكن
