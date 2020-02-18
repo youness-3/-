@@ -51,8 +51,8 @@ client.on('ready',  () => {
   console.log("Rabea/YassiN");
 });
 
-const developers = ['335645388323160064'];//اايديهك
-const adminprefix = "*";//برفكسك
+const developers = ['هنا الايدي '];//ايدي
+const adminprefix = "$";//برفكس
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
@@ -86,4 +86,10 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
-client.login("MzM1NjQ1Mzg4MzIzMTYwMDY0.XkD3BQ.LxYnUMYRN4SNRZjdXLuArYAkSyQ")//بين التخصيص التوكن
+client.login("")//بين التخصيص التوكن
+
+//اختصارات للاوامر
+//بلاينق ، $pl هنا اللي تبي ينكتب
+//ستريمنق ، $st هنا اللي تبي ينكتب
+//لسنق ، $ls هنا اللي تبي ينكتب
+//ويتشنق ، $wt هنا اللي تبي ينكتب
