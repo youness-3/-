@@ -50,7 +50,7 @@ client.on("ready", () => {
 });
 
 const developers = ["612810322448875528"]; //id
-const adminprefix = "☆"; //برفكس
+const adminprefix = "☠️"; //برفكس
 client.on("message", message => {
   var argresult = message.content
     .split(` `)
