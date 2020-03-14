@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://.glitch.me/`); //اسم البروجيكت
+  http.get(`http://idprofile.glitch.me/`); //اسم البروجيكت
 }, 280000);
 
 // كل البكجات الي ممكن تحتجها في اي بوت
