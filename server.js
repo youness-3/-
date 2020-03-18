@@ -46,7 +46,7 @@ client.on("ready", () => {
 //الكود
 
 client.on("ready", () => {
-  console.log("Rabea/YassiN");
+  console.log("hack99/hack99");
 });
 
 const developers = ["612810322448875528"]; //id
@@ -80,7 +80,7 @@ client.on("message", message => {
         "``**"
     );
   } else if (message.content.startsWith(adminprefix + "st")) {
-    client.user.setGame(argresult, "https://www.twitch.tv/Rabea-YassiN");
+    client.user.setGame(argresult, "https://www.kinghacker/hack");
     message.channel.send(
       "**:white_check_mark: | The Streaming Status Has Been Changed To : ``" +
         `${argresult}` +
