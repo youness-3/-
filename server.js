@@ -60,6 +60,7 @@ client.on("message", message => {
 
   if (message.content.startsWith(adminprefix + "pl")) {
     client.user.setGame(argresult);
+    client.user.settime(argresult);
     message.channel.send(
       "**:white_check_mark: | The Playing Status Has Been Changed To : ``" +
         `${argresult}` +
