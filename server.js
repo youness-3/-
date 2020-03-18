@@ -60,7 +60,6 @@ client.on("message", message => {
 
   if (message.content.startsWith(adminprefix + "pl")) {
     client.user.setGame(argresult);
-    client.user.settime(argresult);
     message.channel.send(
       "**:white_check_mark: | The Playing Status Has Been Changed To : ``" +
         `${argresult}` +
@@ -88,18 +87,9 @@ client.on("message", message => {
         "``**"
     );
   }
-  if (message.content.startsWith(adminprefix + "setname")) {
-    client.user.setUsername(argresult).then;
-    message.channel.send(`Changing The Name To ..**${argresult}** `);
-  } else if (message.content.startsWith(adminprefix + "setavatar")) {
-    client.user.setAvatar(argresult);
-    message.channel.send(`Changing The Avatar To :**${argresult}** `);
-  }
 });
 client.login("NjEyODEwMzIyNDQ4ODc1NTI4.XmtFJQ.be4oiQNWtG23izogLu8EfIcuuFM"); //بين التخصيص التوكن
 
-//اختصارات للاوامر
-//بلاينق ، $pl هنا اللي تبي ينكتب
-//ستريمنق ، $st هنا اللي تبي ينكتب
-//لسنق ، $ls هنا اللي تبي ينكتب
+//end
+
 //ويتشنق ، $wt هنا اللي تبي ينكتب
