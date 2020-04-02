@@ -91,5 +91,3 @@ client.on("message", message => {
 client.login("NjEyODEwMzIyNDQ4ODc1NTI4.XmtFJQ.be4oiQNWtG23izogLu8EfIcuuFM"); //بين التخصيص التوكن
 
 //end
-
-//ويتشنق ، $wt هنا اللي تبي ينكتب
