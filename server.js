@@ -88,6 +88,6 @@ client.on("message", message => {
     );
   }
 });
-client.login("NjEyODEwMzIyNDQ4ODc1NTI4.XmtFJQ.be4oiQNWtG23izogLu8EfIcuuFM"); //بين التخصيص التوكن
+client.login("NjEyODEwMzIyNDQ4ODc1NTI4.Xod30A.LYkrEua6eWgU0F2S0Z4OljkycIw"); //بين التخصيص التوكن
 
 //end
