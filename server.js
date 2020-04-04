@@ -49,8 +49,8 @@ client.on("ready", () => {
   console.log("osama/osama");
 });
 
-const developers = ["612810322448875528"]; //id
-const adminprefix = "☠️"; //برفكس
+const developers = ["359541019836022784"]; //id
+const adminprefix = "$"; //برفكس
 client.on("message", message => {
   var argresult = message.content
     .split(` `)
@@ -90,4 +90,7 @@ client.on("message", message => {
 });
 client.login(""); //بين التخصيص التوكن
 
-//end
+//بلاينق : $pl
+// ستريمنق : $st
+// ليسنينق : $ls
+/// وتشينق : $wt
