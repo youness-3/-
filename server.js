@@ -80,7 +80,7 @@ client.on("message", message => {
         "``**"
     );
   } else if (message.content.startsWith(adminprefix + "st")) {
-    client.user.setGame(argresult, "https://www.googelplay/play");
+    client.user.setGame(argresult, "https://www.Twitter/GG5");
     message.channel.send(
       "**:white_check_mark: | The Streaming Status Has Been Changed To : ``" +
         `${argresult}` +
