@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://idprofile.glitch.me/`); //اسم البروجيكت
+  http.get(`http://profile.prime.glitch.me/`); //اسم البروجيكت
 }, 280000);
 
 // كل البكجات الي ممكن تحتجها في اي بوت
@@ -46,7 +46,7 @@ client.on("ready", () => {
 //الكود
 
 client.on("ready", () => {
-  console.log("hack99/hack99");
+  console.log("osama/osama");
 });
 
 const developers = ["612810322448875528"]; //id
@@ -80,7 +80,7 @@ client.on("message", message => {
         "``**"
     );
   } else if (message.content.startsWith(adminprefix + "st")) {
-    client.user.setGame(argresult, "https://www.kinghacker/hack");
+    client.user.setGame(argresult, "https://www.googelplay/play");
     message.channel.send(
       "**:white_check_mark: | The Streaming Status Has Been Changed To : ``" +
         `${argresult}` +
@@ -88,6 +88,6 @@ client.on("message", message => {
     );
   }
 });
-client.login("NjEyODEwMzIyNDQ4ODc1NTI4.Xod30A.LYkrEua6eWgU0F2S0Z4OljkycIw"); //بين التخصيص التوكن
+client.login(""); //بين التخصيص التوكن
 
 //end
